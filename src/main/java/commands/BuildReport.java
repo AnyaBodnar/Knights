@@ -33,17 +33,6 @@ public class BuildReport implements Commands {
                 weaponLists.get(i).printList();
             }
         }
-//        if(dates.isEmpty() && result.isEmpty()){
-//            ResultOfCommand<String> result = new ResultOfCommand<String>("Succeeded","Lists are empty",true);
-//            return result;
-//        }
-//        FileWriter fileWriter=new FileWriter("C:\\Users\\38098\\lr7\\src\\main\\resources\\Report.txt");
-//        for(int i=0;i< result.size() && i<dates.size();i++){
-//            System.out.println("Time of action: "+dates.get(i));
-//            System.out.println("Info about action: "+result.get(i).Result());
-//            fileWriter.write(dates.get(i)+"\n"+ result.get(i).getResult()+"\n"+result.get(i).getInformation()+"\n"+result.get(i).isSuccessful()+"\n");
-//        }
-//        fileWriter.close();
         System.out.println("Building report works!");
         ResultOfCommand<String> result = new ResultOfCommand<String>("Succeeded","Build report works",true);
         return result;
