@@ -15,7 +15,6 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        //  Image icon=new Image("C:\\Users\\38098\\Desktop\\КН-205\\Прикладне програмування\\icon.jpg");
         stage.setTitle("Welcome to Program Knights!");
         //stage.getIcons().add(icon);
         stage.setScene(scene);
