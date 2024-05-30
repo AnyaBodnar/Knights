@@ -102,7 +102,7 @@ public class Menu {
         return 0;
     }
     public void enterreport() throws IOException {
-        FileWriter writer=new FileWriter("C:\\Users\\38098\\lr7\\src\\main\\resources\\Report.txt");
+        FileWriter writer=new FileWriter("C:\\CourseWorkPP\\src\\main\\resources\\Report.txt");
         boolean error=false;
         for(int i=0;i< report.size() && i<dates.size();i++){
 //            System.out.println("Time of action: "+dates.get(i));
