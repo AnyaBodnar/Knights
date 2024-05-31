@@ -44,4 +44,6 @@ public class SelectTest {
         SelectEquipment del=new SelectEquipment(knightlist,equiplist,knightequip);
         Assert.assertEquals(result.Result(),del.execute().Result());
     }
+
+
 }
